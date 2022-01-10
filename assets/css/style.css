@@ -58,7 +58,7 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   color: rgb(8, 3, 15);
-  background: #ec9728;
+  background: #41B3A3;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -69,7 +69,7 @@ a:hover, a:focus, a:active {
 .navbar-main a.is-active {
   background: none !important;
   color: inherit;
-  border-bottom: 50px solid #ec9728;
+  border-bottom: 50px solid #41B3A3;
 }
 .navbar-main .submenu {
   position: absolute;
@@ -180,7 +180,7 @@ a:hover, a:focus, a:active {
   height: 200px;
   padding: 25px;
   text-align: center;
-  background-color: #d16d02;
+  background-color: #C38D9E;
   /*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   */
   background-size: 100%;
@@ -240,7 +240,8 @@ a:hover, a:focus, a:active {
   width: 100%;
   padding: 25px;
   color: #fff;
-  text-align: justify;
+  display: grid;
+  place-items: center center;
   background: rgba(31, 118, 189, 0.9);
   border-bottom: 1px solid #fff;
   visibility: hidden;
@@ -249,11 +250,15 @@ a:hover, a:focus, a:active {
   -o-transition: all, 0.5s;
   -webkit-transition: all, 0.5s;
   transition: all, 0.5s;
+
+
 }
 .reasons-col:hover .on-hover {
   visibility: visible;
   opacity: 1;
   padding: 50px;
+  display: grid;
+  place-items: center center;
   -moz-transition: all, 1s;
   -o-transition: all, 1s;
   -webkit-transition: all, 1s;
