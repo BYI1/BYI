@@ -334,12 +334,12 @@ a:hover, a:focus, a:active {
 /* footer 
 ================================= */
 .footer-top {
-  background: #115c9b;
+  background: #C38D9E;
   height: 40px;
 }
 
 .main-footer {
-  background: #1f76bd;
+  background: #84cdca;
   color: #fff;
 }
 .main-footer .footer-main {
@@ -378,7 +378,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #C38D9E;
   padding: 3px;
 }
 
