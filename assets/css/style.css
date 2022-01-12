@@ -331,6 +331,25 @@ a:hover, a:focus, a:active {
   padding: 0 15px 5px;
 }
 
+.team-member-special {
+  background: #1f76bd;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 15px;
+  border: 1px solid #1f76bd;
+  width: 60%;
+  height: 100%;
+}
+.team-member .thumnail img {
+  width: 70%;
+}
+.team-member .member-name {
+  font-weight: bold;
+}
+.team-member .member-position {
+  padding: 0 15px 5px;
+}
+
 /* footer 
 ================================= */
 .footer-top {
@@ -339,7 +358,7 @@ a:hover, a:focus, a:active {
 }
 
 .main-footer {
-  background: #84cdca;
+  background: #399d8f;
   color: #fff;
 }
 .main-footer .footer-main {
@@ -480,6 +499,7 @@ a:hover, a:focus, a:active {
   font-size: 20px;
   margin-top: 7px;
 }
+
 
 /* contact 
 ================================= */
