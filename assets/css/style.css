@@ -40,6 +40,13 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
+  
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 .navbar-top {
   background: #422407;
   font-size: 12px;
