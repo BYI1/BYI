@@ -47,6 +47,19 @@ a:hover, a:focus, a:active {
   height: auto;
 }
 
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+
+}
+
+.center3 {
+  width: 60%;
+  height: 500px;
+
+}
 .navbar-top {
   background: #422407;
   font-size: 12px;
@@ -174,7 +187,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-home {
-  margin: 30px 0;
+  margin: 100px 0;
 }
 
 /* home/ about-us 
@@ -328,6 +341,13 @@ a:hover, a:focus, a:active {
   padding-bottom: 15px;
   border: 1px solid #1f76bd;
 }
+.classnew {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 15px;
+}
 .team-member .thumnail img {
   width: 100%;
 }
@@ -359,6 +379,9 @@ a:hover, a:focus, a:active {
 
 /* footer 
 ================================= */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .footer-top {
   background: #C38D9E;
   height: 40px;
