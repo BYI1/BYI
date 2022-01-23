@@ -40,7 +40,6 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
-  
 
 .responsive {
   max-width: 100%;
@@ -195,7 +194,12 @@ a:hover, a:focus, a:active {
 .about-us {
   margin: 30px 0;
 }
-
+.cursorpointer{
+  cursor: pointer;
+}
+.underline:hover {
+  text-decoration: underline;
+}
 .about-us-col {
   height: 200px;
   padding: 25px;
@@ -570,7 +574,7 @@ form .alert {
 }
 
 .btn-secondary {
-  background: #fff;
+  background: #fffE;
   color: #1f76bd;
   border-radius: 0;
 }
@@ -578,7 +582,16 @@ form .alert {
   background: #1f76bd;
   color: #fff;
 }
+.btn-third {
+  background: #C38D9E;
+  color: #1f76bd;
+  border-radius: 0;
+}
 
+.btn-third:hover {
+  background: #c9ddd9;
+  color: #fff;
+}
 .title-style-1 {
   text-align: center;
   text-transform: uppercase;
