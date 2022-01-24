@@ -518,6 +518,14 @@ a:hover, a:focus, a:active {
   vertical-align: middle;
   font-size: 16px;
 }
+
+@media (max-width: 330px) {
+  .contact-items .contact-item {
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 13px;
+  }
+}
 .contact-items .contact-icon {
   display: inline-block;
   width: 35px;
@@ -605,6 +613,8 @@ form .alert {
   font-size: 26px;
   margin-bottom: 25px;
 }
+
+
 .title-style-2 .title-under {
   display: block;
   margin: 5px 0;

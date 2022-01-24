@@ -904,7 +904,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #e0ebde;
 }
 input,
 button,
@@ -2362,7 +2362,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  background-color: #d3d2e0;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
