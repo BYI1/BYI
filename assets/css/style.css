@@ -247,11 +247,11 @@ a:hover, a:focus, a:active {
   position: absolute;
   bottom: 0;
   text-align: center;
-  background: rgba(31, 118, 189, 0.8);
+  background: rgb(69 84 74 / 80%);
   width: 100%;
   color: #fff;
   text-transform: uppercase;
-  height: 125px;
+  height: 112px;
   padding: 25px 0;
 }
 .reasons-col .reasons-title {
@@ -260,13 +260,13 @@ a:hover, a:focus, a:active {
 .reasons-col .on-hover {
   position: absolute;
   top: 0;
-  bottom: 125px;
+  bottom: 110px;
   width: 100%;
   padding: 25px;
   color: #fff;
   display: grid;
   place-items: center center;
-  background: rgba(31, 118, 189, 0.9);
+  background: rgb(98 113 100 / 86%);
   border-bottom: 1px solid #fff;
   visibility: hidden;
   opacity: 0;
@@ -387,7 +387,7 @@ a:hover, a:focus, a:active {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 .footer-top {
-  background: #C38D9E;
+  background: #556a63;
   height: 40px;
 }
 
@@ -431,7 +431,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #C38D9E;
+  background: #556a63;
   padding: 3px;
 }
 
@@ -591,8 +591,8 @@ form .alert {
   color: #fff;
 }
 .btn-third {
-  background: #C38D9E;
-  color: #1f76bd;
+  background: #4b5a54;
+  color: #fff;
   border-radius: 0;
 }
 
