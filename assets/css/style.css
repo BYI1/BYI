@@ -189,6 +189,62 @@ a:hover, a:focus, a:active {
   margin: 100px 0;
 }
 
+
+.firstboxhome {
+background-color:#85a092;
+color:white;
+padding:20px;
+border: 10px solid #e0ebde;
+text-align: center;
+padding-top: 60px;
+padding-right: 150px;
+padding-bottom: 50px;
+padding-left: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .firstboxhome {
+    background-color:#85a092;
+    color:white;
+    padding:20px;
+    border: 10px solid #e0ebde;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    }
+}
+
+
+.secondboxhome {
+  background-color:#61766f;
+  color:white;
+  padding:20px;
+  border: 10px solid #e0ebde;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .secondboxhome {
+    background-color:#61766f;
+    color:white;
+    padding:20px;
+    border: 10px solid #e0ebde;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+}
+
+
+
 /* home/ about-us 
 ================================= */
 .about-us {
