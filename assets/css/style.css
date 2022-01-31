@@ -210,9 +210,9 @@ padding-left: 150px;
     border: 10px solid #e0ebde;
     text-align: center;
     padding-top: 60px;
-    padding-right: 50px;
+    padding-right: 25px;
     padding-bottom: 50px;
-    padding-left: 50px;
+    padding-left: 25px;
     }
 }
 
@@ -236,10 +236,10 @@ padding-left: 150px;
     padding:20px;
     border: 10px solid #e0ebde;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-right: 50px;
     padding-bottom: 50px;
-    padding-left: 50px;
+    padding-left: 25px;
   }
 }
 
@@ -288,6 +288,21 @@ padding-left: 150px;
   margin: 25px 0;
 }
 
+
+.add75 {
+  position:relative; 
+  right: -100px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.add75 {
+  position:relative; 
+  right: -25px;
+}
+
+}
 .reasons-col {
   position: relative;
   overflow: hidden;
@@ -329,7 +344,7 @@ padding-left: 150px;
   -moz-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   -webkit-transition: all, 0.5s;
-  transition: all, 0.5s;
+  transition: all, 0s;
 
 
 }
@@ -342,7 +357,7 @@ padding-left: 150px;
   -moz-transition: all, 1s;
   -o-transition: all, 1s;
   -webkit-transition: all, 1s;
-  transition: all, 1s;
+  transition: all, 0.02s;
 }
 .reasons-col:hover img {
   -moz-transform: perspective(1.1) scale3d(1.1, 1.1, 1.1);
