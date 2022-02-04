@@ -21,6 +21,7 @@
         
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="assets/js/test.js"></script>
 
 
 		<link rel="icon" href="favicon.ico">
@@ -297,7 +298,7 @@
 
 	                        <div class="thumnail">
 
-	                            <img src="assets/images/team/website picture adri.png" alt="" class="cause-img">
+	                            <img src="../../../Users/Adri/Downloads/resized.png" alt="" class="cause-img">
 	                            
 	                        </div>
 
@@ -608,15 +609,15 @@
                                     <form action="php/mail.php" class="ajax-form">
 
                                         <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                            <input type="text" name="name" class="form-control" rows="2"placeholder="Name*" required>
                                         </div>
 
                                          <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                                            <input type="text" name="subject" id="contactSubject" class="form-control" placeholder="Subject*" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
+                                            <textarea name="message" id="contactMessage" class="form-control" placeholder="Message*" required></textarea>
                                         </div>
 
                                         <div class="form-group alerts">
@@ -632,7 +633,7 @@
                                         </div>
 
                                          <div class="form-group">
-                                            <button  class="btn btn-submit pull-right">Send message</button>
+                                            <button type="submit" onclick="javascript:window.location='mailto:'+toemail+'?subject='+subject.value+'&cc='+cc+'&body='+message.value" class="btn btn-primary pull-right">Send message</button>
                                         </div>
                                         
                                     </form>

@@ -56,6 +56,7 @@
 
                             <li> <a href="https://www.facebook.com/baybasiyouthinitiative/" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
                             <li> <a href="https://www.youtube.com/channel/UC5nE-vdt6_K0V94pqG2H5Qg" target="_blank"> <i class="fa fa-youtube"></i>  </a> </li>
+
                             <!--<li> <a href="#"> <i class="fa fa-twitter"></i>  </a> </li>
                             <li> <a href="#"> <i class="fa fa-google"></i>  </a> </li>
                             <li> <a href="#"> <i class="fa fa fa-pinterest-p"></i>  </a> </li>-->
@@ -149,7 +150,7 @@
               <h2 class="carousel-title bounceInDown animated slow">Art Auction</h2>
               <h4 class="carousel-subtitle bounceInUp animated slow ">Feb 13 - Foster City Rec Center</h4>
               <!--<a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a-->
-              <a  class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+              <a  class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">READ MORE</a>
 
             </div> <!-- /.carousel-caption -->
 
@@ -168,7 +169,7 @@
 
               <h2 class="carousel-title bounceInDown animated slow">BYI Book Drive</h2>
               <h4 class="carousel-subtitle bounceInUp animated slow"> Ends on 13th Feb, Rec Center</h4>
-              <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated" data-toggle="modal" data-target="#donateModal">DONATE NOW</a>
+              <a class="btn btn-lg btn-secondary hidden-xs bounceInUp animated">READ MORE</a>
 
             </div> <!-- /.carousel-caption -->
 
@@ -189,7 +190,9 @@
 
               <h2 class="carousel-title bounceInDown animated slow" >The Team</h2>
               <h4 class="carousel-subtitle bounceInUp animated slow">You can make the difference!</h4>
-              <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a>
+              <!--a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a-->
+              <a class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">READ MORE</a>
+
 
             </div> <!-- /.carousel-caption -->
 
@@ -536,54 +539,50 @@
 
                     <div class="col-md-4">
 
-                        <div class="footer-col">
+                      <div class="footer-col">
 
-                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
+                        <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
 
-                            <div class="footer-content">
+                        <div class="footer-content">
 
-                                <div class="footer-form">
-                                    
-                                    <div class="footer-form" >
-                                    
-                                    <form action="php/mail.php" class="ajax-form">
+                            <div class="footer-form" >
+                                
+                                <form action="php/mail.php" class="ajax-form">
 
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Name*" required>
+                                    </div>
+
+                                     <div class="form-group">
+                                        <input type="text" name="subject" id="contactSubject" class="form-control" placeholder="Subject*" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea name="message" id="contactMessage" class="form-control" placeholder="Message*" required></textarea>
+                                    </div>
+
+                                    <div class="form-group alerts">
+                    
+                                        <div class="alert alert-success" role="alert">
+                                          
                                         </div>
 
-                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-                                        </div>
-
-                                        <div class="form-group alerts">
-                        
-                                            <div class="alert alert-success" role="alert">
-                                              
-                                            </div>
-
-                                            <div class="alert alert-danger" role="alert">
-                                              
-                                            </div>
-                                            
-                                        </div>
-
-                                         <div class="form-group">
-                                            <button type="submit" class="btn btn-submit pull-right">Send message</button>
+                                        <div class="alert alert-danger" role="alert">
+                                          
                                         </div>
                                         
-                                    </form>
+                                    </div>
 
-                                </div>
+                                     <div class="form-group">
+                                        <button type="submit" onclick="javascript:window.location='mailto:'+toemail+'?subject='+subject.value+'&cc='+cc+'&body='+message.value" class="btn btn-primary pull-right">Send message</button>
+                                    </div>
+                                    
+                                </form>
 
-                                </div>
                             </div>
-                            
                         </div>
+                        
+                    </div>
 
                     </div>
                     <div class="clearfix"></div>
