@@ -20,3 +20,7 @@ function subject () {
     var toemail = "baybasiyouthinitiative@gmail.com";
     var subject = "baybasiyouthinitiative@gmail.com";
     var cc = " baybasi@baybasi.us";
+
+function appear () {
+    document.getElementById('video1').style.display = 'block';
+}
