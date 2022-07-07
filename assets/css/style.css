@@ -394,15 +394,16 @@ padding-left: 150px;
 }
 .cause .cause-title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
+  margin-top: 2px;
   font-weight: bold;
 }
+
 .cause .cause-details {
-  text-align: justify;
-  padding: 0 15px;
+  text-align: center;
   font-size: 13px;
-  margin-bottom: 15px;
-  min-height: 115px;
+  padding: 3px;
+  margin: 4px;
 }
 .cause:hover {
   background: #f0f0f0;
