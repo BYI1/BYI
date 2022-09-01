@@ -432,6 +432,9 @@ padding-left: 150px;
   margin-right: auto;
   width: 50%;
 }
+.px15 {
+  font-size:15px;
+}
 
 .text-align {
   text-align: center;
